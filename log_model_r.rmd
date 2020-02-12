@@ -1,0 +1,58 @@
+---
+title: "Explain Project Log Reg"
+author: "Konstantinos Paganopoulos"
+date: "1/24/2020"
+output: html_document
+---
+
+```{r}
+library(caret)
+library(ggplot2)
+library(tidyverse)
+library(dplyr)
+library(MASS)
+library(reshape2)
+library(e1071)
+library(Hmisc)
+library(corrplot)
+library(randomForest)
+```
+
+```{r}
+df = read.csv("full_full_train.csv")
+df = subset(df, select = -c(X,Unnamed..0,project_id,kw_buzzword_count,desc_buzzword_count,name_buzzword_count,disable_dummy, month_launched,log_goal_currency_usd, year_launched_at,goal_converted_usg_avg,launched_to_deadline,goal_converted_usd, goal_converted_usg_min,goal_converted_usg_max,layback_minutes,project_yearly_count))
+df$final_status = as.factor(df$final_status)
+```
+
+```{r}
+#Correlation Heatmap 
+corr = cor(subset(df, select = -c(country_label, month_launched_label,final_status)) )
+png(height=1800, width=1800, pointsize=30, file="overlap.png")
+corrplot(corr, method = "color", addCoef.col="grey", order = "AOE")
+```
+
+
+```{r}
+## 70% of the sample size
+smp_size <- floor(0.70 * dim(df)[1])
+
+## set the seed to make your partition reproducible
+set.seed(69)
+train_ind <- sample(seq_len(dim(df)[1]), size = smp_size)
+
+train <- df[train_ind,]
+test <- df[-train_ind,]
+```
+
+```{r}
+full_model = glm(formula = final_status ~., data = train, family = binomial(link = 'logit'))
+summary(full_model)
+```
+```{r}
+# By setting the parameter type='response', R will output probabilities in the form of P(y=1|X). Our decision boundary will be 0.5. If P(y=1|X) > 0.5 then y = 1 otherwise y=0. 
+
+pdata = predict(full_model,test,type = "response")
+fitted_values = ifelse(pdata>0.5,1,0)
+fitted_values = as.factor(fitted_values)
+confusionMatrix(data = fitted_values, reference = test$final_status)
+```
