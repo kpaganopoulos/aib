@@ -1,4 +1,104 @@
-# aib
+Employee Terminations
+
+This data set is from Kaggle; explanation can be found at
+https://www.kaggle.com/HRAnalyticRepository/employee-attrition-data
+
+
+
+WHAT AND WHO THIS DATASET IS FOR
+
+This dataset is for the teams NOT doing LIVE presentations for Projects 1 and 2 (Describe and Evaluate).
+
+Note: Teams not presenting live will upload presentations to the hub by 10:45 AM on Mondays, but please also bring hardcopies of  relevant views of your work for turn-in. 
+
+Whether presenting live or submitting video, all presentations must be 8 minutes or less.
+
+
+
+ABOUT THE DATA
+
+Here are brief notes about the dataset and the contents of its single .csv file.
+
+Overview:
+- The data represent fictitious/fake data on terminations. 
+- For each of 10 years it show employees that are active and those that terminated.
+
+Content:
+The data contains
+- employee id 
+- employee record date ( year of data) 
+- birth date 
+- hire date 
+- termination date 
+- age
+- length of service
+- city
+- department
+- job
+- title
+- store
+- number 
+- gender
+- termination reason
+- termination type
+- status year
+- status
+- business unit
+
+Acknowledgements:
+None- it's fake data
+
+Inspiration:
+A lot of turnover analyses occur at an aggregate level-such as turnover rates. But few analyses concentrate on trying to identify exactly which individuals might leave based on patterns that might be present in existing data. Machine learning algorithms often showcase customer churn examples for telcos or product marketing. Those algorithms equally apply to employee churn.
+
+
+
+BRIEF:
+
+Your client wants to develop a program to 'save' employees who would otherwise face likely termination. 
+
+As a first step, the client is asking, are we currently terminating employees who either 
+(a) once performed well? or 
+(b) have similar backgrounds as other employees who do perform well?
+
+Depending on the answer to these questions, the client is interested in understanding the features of potentially valuable but likely-to-be-terminated employees so that effective retention programs could be designed and put in place. 
+
+Your job is to address these questions, in part, by completing the describe and evaluate phases of what a consulting engagement would be. 
+
+
+
+PROJECT 1: DESCRIBE
+
+As discussed in class, the describe project is about fully characterising the dataset to surface what you find to be the most interesting patterns and questions relevant to the client's brief.
+
+Here are some tips for your presentation:  
+1. Begin with the context: the project aim, what you did, and what you hope to achieve  
+2. Summary of what you did
+3. Some patterns (results) you probably expect 
+4. Some patterns (findings) you might find surprising
+5. What this might mean
+6. Suggested focus for project (under general aims of brief)
+
+
+
+PROJECT 2: EVALUATE
+
+As discussed in class, the evaluate project is about taking a sober look at whether you have the data you need to satisfactorily achieve your project goals. 
+
+If so, explain what you'll use, and explain how and why it will give you what you need. (Points for creativity if you make the existing data work despite problems, but it's not good to think you have what you need but don't!) 
+
+If you don't have all you need, say what else you'd need, why, and where you might get it. 
+
+Here are some tips for your presentation:  
+1. Begin with the context: the project aim, what you did this week, and what it means  
+2. What you think is necessary
+3. How the data provides that, or not 
+4. How you will either ...
+	a. Make the project work with the data you have
+	b. Get the data you need to make the project work 
+5. Speculations about what you will find
+6. What is next and what this could all mean add up to 
+
 Getting Funded on Kickstarter
 
 This data set is from Kaggle; explanation can be found at
