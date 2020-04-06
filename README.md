@@ -159,7 +159,7 @@ Here are some tips for your presentation:
 
 
 
-PROJECT 2: PREDICT
+PROJECT 4: PREDICT
 
 As we will discuss in lecture, the predict project is about making a prediction believable enough that people will act on it — potentially changing their plans or habits to leverage new insights.  
 
