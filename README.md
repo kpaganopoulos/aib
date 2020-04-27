@@ -4,7 +4,6 @@ This data set is from Kaggle; explanation can be found at
 https://www.kaggle.com/HRAnalyticRepository/employee-attrition-data
 
 
-
 WHAT AND WHO THIS DATASET IS FOR
 
 This dataset is for the teams NOT doing LIVE presentations for Projects 1 and 2 (Describe and Evaluate).
@@ -12,7 +11,6 @@ This dataset is for the teams NOT doing LIVE presentations for Projects 1 and 2 
 Note: Teams not presenting live will upload presentations to the hub by 10:45 AM on Mondays, but please also bring hardcopies of  relevant views of your work for turn-in. 
 
 Whether presenting live or submitting video, all presentations must be 8 minutes or less.
-
 
 
 ABOUT THE DATA
@@ -52,7 +50,6 @@ Inspiration:
 A lot of turnover analyses occur at an aggregate level-such as turnover rates. But few analyses concentrate on trying to identify exactly which individuals might leave based on patterns that might be present in existing data. Machine learning algorithms often showcase customer churn examples for telcos or product marketing. Those algorithms equally apply to employee churn.
 
 
-
 BRIEF:
 
 Your client wants to develop a program to 'save' employees who would otherwise face likely termination. 
@@ -66,7 +63,6 @@ Depending on the answer to these questions, the client is interested in understa
 Your job is to address these questions, in part, by completing the describe and evaluate phases of what a consulting engagement would be. 
 
 
-
 PROJECT 1: DESCRIBE
 
 As discussed in class, the describe project is about fully characterising the dataset to surface what you find to be the most interesting patterns and questions relevant to the client's brief.
@@ -78,7 +74,6 @@ Here are some tips for your presentation:
 4. Some patterns (findings) you might find surprising
 5. What this might mean
 6. Suggested focus for project (under general aims of brief)
-
 
 
 PROJECT 2: EVALUATE
@@ -105,7 +100,6 @@ This data set is from Kaggle; explanation can be found at
 https://www.kaggle.com/codename007/funding-successful-projects#test.csv
 
 
-
 WHO THIS DATASET IS FOR
 
 This dataset is for all teams for Projects 3 (Explain) and 4 (Predict). Note this is for live presenters and video submitters.
@@ -113,7 +107,6 @@ This dataset is for all teams for Projects 3 (Explain) and 4 (Predict). Note thi
 Note: Teams presenting live are not required to upload your presentations to the hub, but please do bring hardcopies of the relevant views of your presentation. 
 
 Whether presenting live or submitting video, all presentations must be 8 minutes or less.
-
 
 
 ABOUT THE DATA 
@@ -132,11 +125,9 @@ Kickstarter works on all or nothing basis i.e if a project doesn’t meet it goa
 Recently, Kickstarter released its public data repository to allow researchers and enthusiasts like us to help them solve a problem. Will a project get fully funded ?
 
 
-
 BRIEF
 
 In this challenge, you have to first (a) explain why and then (b) predict if a project will get successfully funded or not.
-
 
 
 PROJECT 3: EXPLAIN
@@ -156,7 +147,6 @@ Here are some tips for your presentation:
 5. Features of the data that have implications for model selection
 6. The model(s) you ran and the results you got
 7. What this means for kickstarter users (entrepreneurs) 
-
 
 
 PROJECT 4: PREDICT
